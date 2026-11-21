@@ -1,0 +1,28 @@
+{
+  "meal_id": "meal_sample_001",
+  "captured_at": "2026-11-21T18:47:00+08:00",
+  "image_path": "captures/sample_meal.jpg",
+  "items": [
+    {
+      "name": "steamed white rice",
+      "estimated_grams": 180.0,
+      "confidence": 0.86,
+      "nutrition_source": "usda_fooddata",
+      "macros": {
+        "calories_kcal": 234.0,
+        "protein_g": 4.3,
+        "carbs_g": 50.8,
+        "fiber_g": 0.7,
+        "fat_g": 0.5
+      }
+    }
+  ],
+  "total_macros": {
+    "calories_kcal": 234.0,
+    "protein_g": 4.3,
+    "carbs_g": 50.8,
+    "fiber_g": 0.7,
+    "fat_g": 0.5
+  },
+  "notes": "Sample meal payload for offline testing."
+}
