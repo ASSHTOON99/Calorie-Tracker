@@ -1,0 +1,23 @@
+# Python Virtual Environments & Caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment Variables & Secrets (wdahelly)
+.env 
+.env.*
+!.env.example
+
+# Temporary Captured Images & Local Data
+captures/
+*.jpg
+*.jpeg
+*.png
+
+# Editor & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
